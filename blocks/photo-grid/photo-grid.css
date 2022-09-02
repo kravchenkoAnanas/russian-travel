@@ -24,3 +24,11 @@
       padding: 0px 24px 92px 24px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+      max-width: 288px;
+      padding: 0px 16px 64px 16px;
+      gap: 12px;
+  }
+}

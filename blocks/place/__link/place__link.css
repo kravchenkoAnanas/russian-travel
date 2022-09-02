@@ -5,3 +5,7 @@
   text-decoration-line: underline;
   color: #FFFFFF;
 }
+
+.place__link:hover {
+  color: #aaa;
+}

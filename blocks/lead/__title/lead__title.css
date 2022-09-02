@@ -9,7 +9,15 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .lead__title {
-        padding: 0 108px 32px 108px;
-    }
+  .lead__title {
+      padding: 0 104px 32px 104px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    font-size: 40px;
+    line-height: 44px;
+    padding: 0 0 32px 0;
+  }
 }
