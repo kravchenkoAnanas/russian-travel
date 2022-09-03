@@ -5,9 +5,11 @@
   font-size: 72px;
   line-height: 76px;
   margin: 0 auto;
+  padding-left: calc((100% - 560px) / 2);
+  padding-right: calc((100% - 560px) / 2);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;

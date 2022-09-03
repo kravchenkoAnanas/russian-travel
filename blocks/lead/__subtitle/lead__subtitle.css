@@ -5,7 +5,9 @@
   line-height: 36px;
   max-width: 640px;
   margin: 0;
-  padding: 0 172px 64px 172px;
+  padding-left: calc((100% - 640px) / 2);
+  padding-right: calc((100% - 640px) / 2);
+  padding-bottom: 64px;
 }
 
 
