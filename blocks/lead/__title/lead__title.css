@@ -5,13 +5,9 @@
   line-height: 100px;
   max-width: 720px;
   margin: 0;
-  padding: 0 132px 32px 132px;
-}
-
-@media screen and (max-width: 1024px) {
-  .lead__title {
-      padding: 0 104px 32px 104px;
-  }
+  padding-left: calc((100% - 720px) / 2);
+  padding-right: calc((100% - 720px) / 2);
+  padding-bottom: 32px;
 }
 
 @media screen and (max-width: 320px) {

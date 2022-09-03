@@ -4,27 +4,19 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  max-width: 1184px;
+  max-width: calc(100% - 48px * 2);
   padding: 28px 0 56px 0;
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
-  .header {
-      max-width: 928px;
-      padding: 28px 0 48px 0;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .header {
-      max-width: 720px;
+    max-width: calc(100% - 24px * 2);
   }
 }
 
 @media screen and (max-width: 320px) {
   .header {
-      max-width: 288px;
-      /* padding: 16px 16px 16px 48px; */
+    max-width: calc(100% - 16px * 2);
   }
 }
