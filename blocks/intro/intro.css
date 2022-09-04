@@ -5,16 +5,32 @@
   max-width: 984px;
   padding-left: calc((100% - 984px) / 2);  
   padding-right: calc((100% - 984px) / 2);  
+  padding-bottom: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+      grid-template-columns: 928px;
+      padding-left: calc((100% - 928px) / 2);  
+      padding-right: calc((100% - 928px) / 2); 
+      padding-bottom: 88px; 
+  }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
       grid-template-columns: 720px;
+      padding-left: calc((100% - 720px) / 2);  
+      padding-right: calc((100% - 720px) / 2); 
+      padding-bottom: 88px; 
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
       grid-template-columns: 288px;
+      padding-left: calc((100% - 288px) / 2);  
+      padding-right: calc((100% - 288px) / 2);  
+      padding-bottom: 64px; 
   }
 }
