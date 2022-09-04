@@ -26,7 +26,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 700px) {
   .intro {
       grid-template-columns: 288px;
       padding-left: calc((100% - 288px) / 2);  
