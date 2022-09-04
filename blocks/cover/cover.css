@@ -1,11 +1,10 @@
 .cover {
-  color: white;
+  max-width: 1184px;
   min-height: 740px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 32px;
+ 
+  margin: 0 auto;
 }
+
 
 @media screen and (max-width: 1024px) {
   .cover {
@@ -27,4 +26,4 @@
       margin-top: 66px;
       margin-bottom: 60px; 
   }
-}
+} 

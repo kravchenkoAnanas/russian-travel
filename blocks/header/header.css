@@ -5,8 +5,15 @@
   align-items: center;
   justify-content: space-between;
   max-width: calc(100% - 48px * 2);
-  padding: 28px 0 56px 0;
+  padding-top: 28px; 
+  padding-bottom: 56px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    padding-bottom: 48px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -17,6 +24,7 @@
 
 @media screen and (max-width: 320px) {
   .header {
+    padding-top: 16px;
     max-width: calc(100% - 16px * 2);
   }
 }

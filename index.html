@@ -24,15 +24,15 @@
     <main class="content">
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
-        <h2 class="lead__subtitle">
+        <p class="lead__subtitle">
           Настоящая страна не в выпусках новостей, а здесь.
-        </h2>
+        </p>
         <img
           src="images/lead-polka.jpg"
           alt="Вагон поезда"
           class="lead__image"
         />
-        <h4 class="lead__caption">ваша полка — верхняя</h4>
+        <p class="lead__caption">ваша полка — верхняя</p>
       </section>
       <section class="intro">
         <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -47,13 +47,13 @@
           проехала 20 тысяч километров по родной стране. Мы выбрали и описали
           некоторые интересные места, достойные вашего отпуска.
         </p>
-        <div class="intro__list">
-          <p>Часовых поясов 11</p>
-          <p>Объектов природного наследия ЮНЕСКО 12</p>
-          <p>Объектов культурного наследия ЮНЕСКО 16</p>
-          <p>Природных заповедников 105</p>
-          <p>Аэропортов 241</p>
-        </div>
+        <ul class="intro__list">
+          <li>Часовых поясов<span class="intro__number"> 11</span></li>
+          <li>Объектов природного наследия ЮНЕСКО<span class="intro__number"> 12</span</li>
+          <li>Объектов культурного наследия ЮНЕСКО<span class="intro__number"> 16</span</li>
+          <li>Природных заповедников<span class="intro__number"> 105</span</li>
+          <li>Аэропортов<span class="intro__number"> 241</span</li>
+        </ul>
       </section>
       <section class="photo-grid">
         <img
@@ -118,10 +118,10 @@
         />
       </section>
       <section class="places">
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
-            <h3 class="place__url-heading">URL</h3>
+            <p class="place__url-heading">URL</p>
             <a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
           </div>
           <img
@@ -143,13 +143,13 @@
               россыпи небольших приморских городов. Атмосфера здешних мест
               исключает суету, окуная в спокойствие природы и запах стального,
               прохладного моря.
-            </p>
+            </div>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
-            <h3 class="place__url-heading">URL</h3>
+            <p class="place__url-heading">URL</p>
             <a
               href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
               class="place__link"
@@ -177,11 +177,11 @@
               в Мурманск.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
-            <h3 class="place__url-heading">URL</h3>
+            <p class="place__url-heading">URL</p>
             <a
               href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
               class="place__link"
@@ -204,11 +204,11 @@
               косули. И знаменитые манулы — тоже обитатели Алтайского края.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
-            <h3 class="place__url-heading">URL</h3>
+            <p class="place__url-heading">URL</p>
             <a href="https://vk.com/baikalmile" class="place__link"
               >https://vk.com/baikalmile</a
             >
@@ -232,11 +232,11 @@
               «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
-            <h3 class="place__url-heading">URL</h3>
+            <p class="place__url-heading">URL</p>
             <a href="http://vodlozero.ru" class="place__link"
               >http://vodlozero.ru/</a
             >
@@ -257,30 +257,30 @@
             паре метров от земли помечены медвежьими когтями. Чтобы все знали,
             кто тут хозяин.
           </p>
-        </div>
+        </article>
       </section>
-      <a
-        href="https://stampsy.com/na-elektrichkakh-do-baikala"
-        class="cover-link"
-      >
-        <section class="cover">
+      <section class="cover">
+        <a
+          href="https://stampsy.com/na-elektrichkakh-do-baikala"
+          class="cover__link"
+        >
           <h2 class="cover__title">До Байкала «на собаках»</h2>
-          <h3 class="cover__subtitle">
+          <p class="cover__subtitle">
             По мотивам учебной темы о Транссибе — путешествие от столицы до
             Байкала на электричках.
-          </h3>
-        </section>
-      </a>
+          </p>
+        </a>
+      </section>
     </main>
     <footer class="footer">
-      <div class="footer__links">
+      <nav class="footer__links">
         <a href="https://yandex.ru/maps" class="footer__link">Карты</a>
         <a href="https://yandex.ru/pogoda" class="footer__link">Погода</a>
         <a href="https://rasp.yandex.ru" class="footer__link">Расписание</a>
         <a href="https://calendar.yandex.ru" class="footer__link">Календарь</a>
         <a href="https://travel.yandex.ru" class="footer__link">Путешествия</a>
-      </div>
-      <div class="footer__copyright">&copy; 2020.Анастасия Кравченко</div>
+      </nav>
+      <p class="footer__copyright">&copy; 2020.Анастасия Кравченко</p>
     </footer>
   </body>
 </html>
