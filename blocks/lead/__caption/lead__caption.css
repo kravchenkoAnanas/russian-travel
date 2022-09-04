@@ -8,25 +8,6 @@
   max-width: 158px;
   width: 100%;
   margin: 0;
-  padding: 8px 826px 0 0;
-}
-
-@media screen and (max-width: 1024px) {
-    .lead__caption {
-        padding: 8px calc(100% - 158px) 0 0;
-    }
-}
-
-@media screen and (max-width: 768px) {
-  .lead__caption {
-      padding: 8px calc(100% - 158px) 0 0;
-
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .lead__caption {
-      padding: 8px calc(100% - 158px) 0 0;
-  }
+  padding: 8px calc(100% - 158px) 0 0;
 }
 

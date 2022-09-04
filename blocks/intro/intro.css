@@ -1,27 +1,20 @@
 .intro {
-  display: flex;
-  flex-direction: column;
-  max-width: 690px;
-  margin: 0;
-  padding: 0 0 92px 148px;
-}
-
-@media screen and (max-width: 1024px) {
-  .intro {
-      padding: 0px 238px 92px 48px;
-  }
+  display: grid;
+  grid-template-columns: 690px;
+  align-items: start;
+  max-width: 984px;
+  padding-left: calc((100% - 984px) / 2);  
+  padding-right: calc((100% - 984px) / 2);  
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-      max-width: 720px;
-      padding: 0 24px 88px 24px;
+      grid-template-columns: 720px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
-      max-width: 288px;
-      padding: 0 16px 64px 16px;
+      grid-template-columns: 288px;
   }
 }

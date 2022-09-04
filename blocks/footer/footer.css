@@ -23,6 +23,6 @@
     flex-direction: column;
     max-width: 186px;
     gap: 48px;
-    padding: 0 118px 24px 6px;
+    padding: 0 calc(100%-186px) 24px 6px;
   }
 }
