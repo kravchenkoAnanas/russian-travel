@@ -11,13 +11,13 @@
 
 @media screen and (max-width: 1270px) {
   .footer {
-      max-width: 928px;
+    max-width: 928px;
   }
-} 
+}
 
 @media screen and (max-width: 1020px) {
   .footer {
-      max-width: 720px;
+    max-width: 720px;
   }
 }
 
@@ -26,7 +26,7 @@
     flex-direction: column;
     max-width: 186px;
     gap: 48px;
-    justify-content: start ;
+    justify-content: start;
     align-items: baseline;
     margin: 0;
     padding: 0 0 24px 16px;
