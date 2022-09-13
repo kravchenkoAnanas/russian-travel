@@ -9,19 +9,19 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1270px) {
   .footer {
       max-width: 928px;
   }
 } 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1020px) {
   .footer {
       max-width: 720px;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 767px) {
   .footer {
     flex-direction: column;
     max-width: 186px;

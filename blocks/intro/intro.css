@@ -8,7 +8,7 @@
   padding-bottom: 92px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1270px) {
   .intro {
       grid-template-columns: 928px;
       padding-left: calc((100% - 928px) / 2);  
@@ -17,16 +17,15 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1020px) {
   .intro {
       grid-template-columns: 720px;
       padding-left: calc((100% - 720px) / 2);  
       padding-right: calc((100% - 720px) / 2); 
-      padding-bottom: 88px; 
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 767px) {
   .intro {
       grid-template-columns: 288px;
       padding-left: calc((100% - 288px) / 2);  
